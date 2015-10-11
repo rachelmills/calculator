@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body onload="resetCalculator()">
+<div class="row">
+  <div id="1" class="grid" onclick="clickNumber(1)">1</div>
+  <div id="2" class="grid" onclick="clickNumber(2)">2</div>
+  <div id="3" class="grid" onclick="clickNumber(3)">3</div>
+  <div id="+" class="grid" onclick="clickAction('+')">+ </div>
+</div>
+<div class="row">
+  <div id="4" class="grid" onclick="clickNumber(4)">4</div>
+  <div id="5" class="grid" onclick="clickNumber(5)">5</div>
+  <div id="6" class="grid" onclick="clickNumber(6)">6</div>
+  <div id="-" class="grid" onclick="clickAction('-')">-&nbsp;</div>
+</div>
+<div class="row">
+  <div id="7" class="grid" onclick="clickNumber(7)">7</div>
+  <div id="8" class="grid" onclick="clickNumber(8)">8</div>
+  <div id="9" class="grid" onclick="clickNumber(9)">9</div>
+  <div id="*" class="grid" onclick="clickAction('*')">*</div>
+</div>
+<div class="row">
+  <div id="0" class="grid" onclick="clickNumber(0)">0</div> 
+  <div id="/" class="grid" onclick="clickAction('/')">/&nbsp;</div>
+  <div id="=" class="grid" onclick="calculate()">=</div>
+  <div id="Clear" class="grid" onclick="resetCalculator('Clear')">Clear</div>
+</div>
+
+<div class="row">
+  <input class="test" type="text" id="resultbox" readonly></input>
+</div>
+
+<script src="jquery-2.1.4.min.js"></script>
+<script src="calculator.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+.grid {
+    display: inline;
+    padding: 20px;
+    border: solid;
+    margin: -1px;
+    font-size: 40px;
+}
+
+.row {
+    display: block;
+    padding: 20px;
+}
+
+input {
+  border-style: solid;
+  border-color: blue;
+  width: 70px;
+  height: 60px;
+  font-size: 40px;
+  font-color: blue;
+}
+
